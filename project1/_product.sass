@@ -1,0 +1,201 @@
+$width-site: 1140px
+
+.product-top
+    background: #F8F3F4
+
+    &-container
+        display: flex
+        justify-content: space-between
+        padding: 60px
+        align-items: center
+        
+
+    &-txt-left
+        text-transform: uppercase
+        font-size: 24px
+        line-height: 29px
+        font-family: Lato
+        color: #F16D7F
+
+    &-right
+        display: flex
+
+    &-txt-right
+        text-decoration: none
+        text-transform: uppercase
+        color: #636363
+        margin-right: 5px
+        @extend .text-decor
+
+    &-txt-right:hover
+        color: #F16D7F
+
+.slider-img
+    width: 100%
+
+.new-arrivals-right
+    color: #F16D7F
+    font-weight: 700
+
+.product-middle
+    background: #F7F7F7
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.slider-image
+    width: 597px
+
+.fas
+    background: rgba(42, 42, 42, 0.15)
+    height: 47px
+    width: 47px
+    padding: 11px 17px 12px 17px
+    font-size: 30px
+    color: black
+    box-sizing: border-box
+
+    &:hover
+        color: #F16D7F
+
+.blocks
+    justify-content: center
+    display: flex
+    background: #F7F7F7
+    height: 65px
+
+.block2
+    width: $width-site
+    background: #fff
+    border-top: 1px solid #EAEAEA
+    border-left: 1px solid #EAEAEA
+    border-right: 1px solid #EAEAEA
+
+.collection
+    display: flex
+    flex-direction: column
+    align-items: center
+    border: 1px solid #EAEAEA
+    border-top: transparent
+
+    &-top
+        display: flex
+        flex-direction: column
+        align-items: center
+
+.col-head-1
+    text-transform: uppercase
+    color: #F16D7F
+    font-weight: 300
+    @extend .text-decor
+    margin-bottom: 12px
+
+.col-line
+    width: 63px
+    border: 1px solid #EF5B70
+    margin-bottom: 12px
+
+.col-head-2
+    font-family: Lato
+    font-weight: 300
+    font-size: 18px
+    line-height: 22px
+    color: #4D4D4D
+    margin-bottom: 48px
+
+.col-txt
+    max-width: 554px
+    font-weight: 300
+    @extend .text-decor
+    text-align: center
+    color: #5E5E5E
+    margin-bottom: 32px
+
+.col-price
+    font-family: Lato
+    font-weight: 300
+    font-size: 24px
+    line-height: 29px
+    color: #EF5B70
+    margin-bottom: 65px
+
+.product-line
+    display: none
+    color: #EAEAEA
+    width: 175px
+
+.col-bot
+    width: 641px
+    border-top: 1px solid #EAEAEA
+    padding-top: 65px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.three-details
+    display: flex
+    @extend .text-decor
+    color: #6F6E6E
+    justify-content: center
+    margin-bottom: 49px
+
+.summary-2
+    margin-left: 23px
+    margin-right: 23px
+
+.product-summary
+    display: block
+
+    &::-webkit-details-marker
+        display: none
+
+    &::after
+        content: '\25B6'
+        padding-right: 0.5em
+        margin-left: 9px
+
+    .product-details[open] > &::after
+        content: '\25BC'
+        margin-left: 9px
+
+.col-button
+    display: block
+    display: flex
+    justify-content: space-around
+    align-items: center
+    color: #F26376
+    border: 1px solid #FF6A6A
+    width: 220px
+    text-decoration: none
+    font-family: Lato
+    font-size: 16px
+    line-height: 19px
+    position: relative
+    margin-bottom: 64px
+
+    &:hover
+        border: 1px solid transparent
+        color: white
+        background-color: #F26376
+        display: block
+        display: flex
+        justify-content: space-around
+
+.fa-shopping-cart
+    color: #EF5B70
+    background-color: white
+
+    .col-button:hover &
+        color: white
+        background-color: #F26376
+
+.product-items
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: 129px
+    margin-bottom: 128px
+
+.menu-boxes-2-level-product
+    margin-top: 0
+    margin-bottom: 0

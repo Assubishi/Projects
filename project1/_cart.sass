@@ -1,0 +1,163 @@
+.cart-top
+    margin-bottom: 96px
+
+.cart_main
+    display: flex
+    justify-content: space-between
+
+.cart_items
+    max-width: 652px
+
+.cart_item_1
+    display: flex
+    width: 100%
+    margin-bottom: 40px
+    transition: box-shadow 1s
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13)
+    &:hover
+        box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13)
+
+.cart-item-img
+    width: 40%
+
+.cart_item_info
+    width: 60%
+    padding-top: 3%
+    padding-right: 22px
+    padding-left: 3%
+
+.cart_item_heading
+    display: flex
+    justify-content: space-between
+    margin-bottom: 10%
+
+.cart_item_heading_text
+    font-family: Lato
+    font-size: 24px
+    line-height: 29px
+    color: #222222
+    text-transform: uppercase
+    width: 262px
+    font-weight: 400
+
+.cart_item_info_text
+    font-family: Lato
+    font-size: 22px
+    line-height: 26px
+    color: #575757
+
+.item-details-txt
+    color: #636363
+
+.item_quantity
+    color: #656565
+    border: 1px solid #EAEAEA
+    margin-left: 24px
+    padding: 0 auto
+
+.cart_buttons
+    display: flex
+    justify-content: space-between
+    margin-top: 72px
+    margin-bottom: 128px
+
+.cart_button
+    padding: 16px 40px
+    border: 1px solid #A4A4A4
+    background-color: #fff
+    transition: all 1s
+    &:hover
+        background-color: #F16D7F
+        border: 1px solid transparent
+    &:hover .cart_button_txt
+        color: white
+    &_pay_process
+        padding: 10px 15px
+        margin-top: 23px
+        margin-bottom: 57px
+        &:hover
+            border: 1px solid transparent
+            background-color: #F16D7F
+            .cart_button_txt_pay_process
+                color: #fff
+
+.pay_process
+    width: 360px
+    padding-top: 17px
+
+.cart_button_txt
+    text-transform: uppercase
+    font-weight: 300
+    color: #000000
+    @extend .text-decor
+    &_pay_process
+        font-size: 11px
+        line-height: 13px
+        color: #4A4A4A
+
+.cart_form_head
+    font-family: Lato
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    color: #222222
+
+.cart_info
+    width: 100%
+    margin-top: 20px
+    height: 45px
+    border-radius: 0px
+    border: 1px solid #A4A4A4
+    padding-left: 18px
+
+.cart_checkout
+    background: #F5F3F3
+    padding: 42px
+    width: 360px
+    box-sizing: border-box
+
+.cart_checkout_sub
+    font-family: Lato
+    font-weight: 400
+    font-size: 11px
+    line-height: 13px
+    color: #4A4A4A
+    text-align: right
+
+.cart_checkout_sub_price
+    margin-left: 10px
+    font-family: Lato
+    font-weight: 400
+    font-size: 11px
+    line-height: 13px
+    color: #4A4A4A
+
+.cart_checkout_grand
+    font-family: Lato
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    color: #222222
+    margin: 12px 0 21px 0
+    text-align: right
+
+.cart_checkout_grand_price
+    margin-left: 10px
+    color: #F16D7F
+
+.process_checkout_button
+    display: block
+    background: #F16D7F
+    padding: 15px 41px
+    font-family: Lato
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    color: #FFFFFF
+    margin-top: 17px
+    text-decoration: none
+    border: 1px solid transparent
+    &:hover
+        border: 1px solid #F16D7F
+        background-color: #fff
+        color: #F16D7F
